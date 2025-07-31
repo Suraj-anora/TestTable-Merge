@@ -1,3 +1,17 @@
+"""
+-------------------------------------------------------------------------------
+Generic Test Table Merger
+Author       : Suraj V Mudhole
+Version      : 1.0.0
+Last Updated : July 31, 2025
+
+Description  : This script dynamically merges multiple test table CSV files
+               into a single master CSV, aligning test data by Suite and Test Name.
+               It handles any number of input files with custom names, and
+               automatically maps LSL, USL, and other test limits per file.
+-------------------------------------------------------------------------------
+"""
+
 import os
 import pandas as pd
 import glob
